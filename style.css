@@ -1,0 +1,156 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+#wrapper{
+    background-color: #dcded4;
+    color: white;
+    width: 970px;
+    margin: auto;
+    padding: 20px;
+    font-family: courier, monospace, sans-serif;
+}
+
+#header{
+    background-color: #2db0ab;
+    height: 80px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+#gitBasics{
+    /*background-color: yellow;*/
+    height: 60px;
+    /*width: 500px;*/
+    display: inline-block;
+    margin-right: 125px;
+    margin-top: 10px;
+    padding-left: 5px;
+}
+
+#gitBasics img{
+    height: 60px;
+    display: inline-block;
+    /*background-color: red;*/
+}
+
+#gitBasics h1{
+    color: black;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 12px;
+}
+
+#header ul{
+    /*background-color: red;*/
+    width: 548px;
+    height: 40px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 22pt;
+}
+
+#header li{
+    color: white;
+    display: inline;
+    width: 200px;
+    text-decoration: underline;
+    font-size: 9pt;
+}
+
+#middle{
+    background-color: #fde49b;
+    height: 600px;
+    width: 930px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+#middle #left{
+    background-color: #173f43;
+    display: inline-block;
+    width: 240px;
+    height: 540px;
+    vertical-align: top;
+    margin-right: 40px;
+    padding: 30px;
+}
+
+#middle #left h2{
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+
+#middle p{
+    font-weight: 100;
+    font-size: 10pt;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    line-height: 14pt;
+}
+
+#middle #right{
+    /*background-color: white;*/
+    display: inline-block;
+    width: 560px;
+    height: 600px;
+}
+
+#right .horizontal
+{
+    /*background-color: red;*/
+    height: 173px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#right h3{
+    font-weight: 100;
+    font-size: 12pt;
+    margin-bottom: 10px;
+}
+
+.upperBox{
+    background-color: #173f43;
+    /*height: 100px;*/
+    width: 130px;
+    display: inline-block;
+    padding: 15px;
+}
+
+#right .horizontal .upperBox p{
+    font-size: 8pt;
+    line-height: 12pt;
+    margin-left: 8pt;
+}
+
+#right .horizontal .midBox p{
+    font-size: 8pt;
+}
+
+.midBox{
+    background-color: #173f43;
+    width: 230px;
+    display: inline-block;
+    padding: 15px;
+}
+
+#lowBox{
+    background-color: #173f43;
+    width: 560px;
+    padding: 15px;
+}
+
+#lowBox p{
+    font-size: 8pt;
+}
+
+#footer{
+    background-color: #2db0ab;
+    height: 50px;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 10pt;
+}
